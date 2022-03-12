@@ -16,22 +16,22 @@ const routes = [
   },
   {
     path: '/phase1',
-    name: 'phase1',
+    name: 'Phase 1 ({{this.$root.$data.phase1.length}})',
     component: PhaseOneView
   },
   {
     path: '/phase2',
-    name: 'phase2',
+    name: 'Phase 2 ({{this.$root.$data.phase2.length}})',
     component: PhaseTwoView
   },
   {
     path: '/phase3',
-    name: 'phase3',
+    name: 'Phase 3 ({{this.$root.$data.phase3.length}})',
     component: PhaseThreeView
   },
   {
     path: '/phase4',
-    name: 'phase4',
+    name: 'Phase 4 ({{this.$root.$data.phase4.length}})',
     component: PhaseFourView
   }
 ]

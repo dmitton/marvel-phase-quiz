@@ -1,6 +1,12 @@
 <template>
   <div>
     <MovieList :movies="movies" />
+    <div class="jumbotron" v-footer>
+      <hr>
+      <p class="lead">
+      <a class="btn btn-primary btn-lg" href="https://github.com/dmitton/marvel-phase-quiz/tree/main/src" role="button">GitHub Repository</a>
+      </p>
+    </div>
   </div>
 </template>
 
